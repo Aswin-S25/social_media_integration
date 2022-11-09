@@ -34,6 +34,7 @@ dependencies:
   firebase_core: ^2.1.1
   firebase_auth: ^4.1.1
   google_sign_in: ^5.4.2
+  flutter_facebook_auth: ^5.0.6
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -96,5 +97,17 @@ flutter:
     - family: Poppins
       fonts:
         - asset: assets/Poppins-SemiBold.ttf
+
+    - family: PoppinsBold
+      fonts:
+        - asset: assets/Poppins-Bold.ttf
+
+    - family: PoppinsLight
+      fonts:
+        - asset: assets/Poppins-Light.ttf
+
+    - family: PoppinsRegular
+      fonts:
+        - asset: assets/Poppins-Regular.ttf
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
