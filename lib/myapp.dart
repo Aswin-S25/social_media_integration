@@ -9,7 +9,7 @@ class MyApp extends StatelessWidget {
     return  const MaterialApp(
       debugShowCheckedModeBanner: false,
       
-      title: "TOLOTO",
+      title: "Yolana",
       home: Scaffold(
         body: Register(),
         
